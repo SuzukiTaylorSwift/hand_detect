@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 import pickle
 
-data = pd.read_csv("dataset.csv", header=None)
+data = pd.read_csv("dataset_balanced.csv", header=None)
 
 # clean
 data = data.dropna()
